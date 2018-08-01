@@ -1,0 +1,1 @@
+../../../../Navigine/Navigine Framework/Navigine.framework/Headers/NCBeacon.h

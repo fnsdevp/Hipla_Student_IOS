@@ -1,0 +1,33 @@
+PODS:
+  - Crashlytics (3.10.5):
+    - Fabric (~> 1.7.9)
+  - Fabric (1.7.9)
+  - MBProgressHUD (1.1.0)
+  - Navigine (1.0.43)
+  - ProjectOxfordFace (1.4.1)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - MBProgressHUD (~> 1.1.0)
+  - Navigine
+  - ProjectOxfordFace
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Crashlytics
+    - Fabric
+    - MBProgressHUD
+    - Navigine
+    - ProjectOxfordFace
+
+SPEC CHECKSUMS:
+  Crashlytics: 7f2e38d302d9da96475b3d64d86fb29e31a542b7
+  Fabric: a2917d3895e4c1569b9c3170de7320ea1b1e6661
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  Navigine: d3a1d3aae25ec891bf29b97ad5fd667dfaf65754
+  ProjectOxfordFace: fa7d7adbc9a11203be61a6a80511101b5dbf6ce4
+
+PODFILE CHECKSUM: b01ce569f0d596d5e00ee5cd578f60f7ab241599
+
+COCOAPODS: 1.5.0

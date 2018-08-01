@@ -1,0 +1,49 @@
+//
+//  HiplaStudent-prefix.pch
+//  HiplaStudent
+//
+//  Created by FNSPL on 15/10/17.
+//  Copyright © 2017 FNSPL. All rights reserved.
+//
+
+//
+// Prefix header for all source files of the 'Hipla Student' target in the 'Hipla Student' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreMotion/CoreMotion.h>
+#import "NSDictionary+NullReplacement.h"
+#import <UserNotifications/UserNotifications.h>
+#import "UIView+Additions.h"
+#import <CoreBluetooth/CoreBluetooth.h>
+#import <CoreLocation/CoreLocation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <AVFoundation/AVFoundation.h>
+#import "SVProgressHUD.h"
+#import "Utils.h"
+#import "MapPin.h"
+#import "Reachability.h"
+#import "KYDrawerController.h"
+//#import "JScrollView+PageControl+AutoScroll.h"
+//#import "UIView+Toast.h"
+#import "Database.h"
+#import "AppDelegate.h"
+#import "Constants.h"
+#import <MessageUI/MessageUI.h>
+#import <EventKit/EventKit.h>
+#import "UIColor+HexString.h"
+#import <Contacts/Contacts.h>
+#import <ContactsUI/ContactsUI.h>
+
+#endif
+
